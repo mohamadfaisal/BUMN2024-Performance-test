@@ -1,0 +1,473 @@
+{
+  "id": "d54a868a-4337-4a1b-b822-414757d984a8",
+  "version": "2.0",
+  "name": "Web Application Test - Rekber BUMN 2024",
+  "url": "https://rekrutmenbersama2024.fhcibumn.id",
+  "tests": [{
+    "id": "8cde9749-d1cb-4a11-b4aa-c58b27523854",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "de975950-776b-4d5b-8e37-278ba891eba4",
+    "name": "Login",
+    "commands": [{
+      "id": "d5b1569a-e69c-4017-847f-e37fc89f13d0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37404ec6-8d9f-4db0-ad7b-d49f2d172039",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x880",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1af2bfaf-8735-4867-a1cc-fb9e1a411927",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=#navbarSupportedContent .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://rekrutmenbersama2024.fhcibumn.id/login_page')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b6c8e01-fbbb-4f31-bf2b-c317dfb6aad0",
+      "comment": "",
+      "command": "type",
+      "target": "id=validation[email]",
+      "targets": [
+        ["id=validation[email]", "id"],
+        ["name=validation[email]", "name"],
+        ["css=#validation\\[email\\]", "css:finder"],
+        ["xpath=//input[@id='validation[email]']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login-data']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "mhmfaisal96@gmail.com"
+    }, {
+      "id": "67877a9f-7eeb-4058-afc0-35a50580b4b6",
+      "comment": "",
+      "command": "type",
+      "target": "id=validation[password]",
+      "targets": [
+        ["id=validation[password]", "id"],
+        ["name=validation[password]", "name"],
+        ["css=#validation\\[password\\]", "css:finder"],
+        ["xpath=//input[@id='validation[password]']", "xpath:attributes"],
+        ["xpath=//div[@id='show_hide_password']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Faqw3nvsH^p98B^"
+    }, {
+      "id": "8828d1b9-4a12-4038-8772-25802cf3feb2",
+      "comment": "",
+      "command": "click",
+      "target": "id=validation[email]",
+      "targets": [
+        ["id=validation[email]", "id"],
+        ["name=validation[email]", "name"],
+        ["css=#validation\\[email\\]", "css:finder"],
+        ["xpath=//input[@id='validation[email]']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login-data']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3099f32e-db09-4d1a-b230-5f9c82d6262e",
+      "comment": "",
+      "command": "click",
+      "target": "id=validation[email]",
+      "targets": [
+        ["id=validation[email]", "id"],
+        ["name=validation[email]", "name"],
+        ["css=#validation\\[email\\]", "css:finder"],
+        ["xpath=//input[@id='validation[email]']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login-data']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "993c4917-2106-49e7-bbe1-844406c6c077",
+      "comment": "",
+      "command": "click",
+      "target": "id=validation[password]",
+      "targets": [
+        ["id=validation[password]", "id"],
+        ["name=validation[password]", "name"],
+        ["css=#validation\\[password\\]", "css:finder"],
+        ["xpath=//input[@id='validation[password]']", "xpath:attributes"],
+        ["xpath=//div[@id='show_hide_password']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bfc329f-0dd8-4c3f-b042-aae6747644bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=validation[sec_key]",
+      "targets": [
+        ["id=validation[sec_key]", "id"],
+        ["name=validation[sec_key]", "name"],
+        ["css=#validation\\[sec_key\\]", "css:finder"],
+        ["xpath=//input[@id='validation[sec_key]']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login-data']/div[2]/div[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4951dee-9dc5-4189-9da0-cffa3b5c4a4a",
+      "comment": "",
+      "command": "type",
+      "target": "id=validation[sec_key]",
+      "targets": [
+        ["id=validation[sec_key]", "id"],
+        ["name=validation[sec_key]", "name"],
+        ["css=#validation\\[sec_key\\]", "css:finder"],
+        ["xpath=//input[@id='validation[sec_key]']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login-data']/div[2]/div[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "guvh"
+    }, {
+      "id": "3e6de6ee-c00f-440f-b57f-c9f5f7fa1013",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=validation[sec_key]",
+      "targets": [
+        ["id=validation[sec_key]", "id"],
+        ["name=validation[sec_key]", "name"],
+        ["css=#validation\\[sec_key\\]", "css:finder"],
+        ["xpath=//input[@id='validation[sec_key]']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login-data']/div[2]/div[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c41912d0-e96c-4756-a9e2-7e5e5c81dda5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=MOHAMAD FAISAL",
+      "targets": [
+        ["linkText=MOHAMAD FAISAL", "linkText"],
+        ["css=.dropdown-toggle", "css:finder"],
+        ["xpath=//body[@id='menu_style']/div[4]/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript: void(0);')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'MOHAMAD FAISAL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae184879-8b86-40a2-be48-8cb5f12e0eae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.dropdown-item:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//body[@id='menu_style']/div[4]/div[2]/div/div/ul/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://rekrutmenbersama2024.fhcibumn.id/dashboard/logout')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a95a730-8354-4cac-b59c-a5bab988eff1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f8a7ed54-a517-400f-8894-b7083057a6dd",
+    "name": "Menu and Navigation Page",
+    "commands": [{
+      "id": "b517e5be-d74d-44d7-956e-0a443e382e7f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e52f2221-1bff-4769-91e0-4edbccc7ad43",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x880",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6c6f254-3923-4224-9ec3-9ef29051d6e2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=#navbarSupportedContent .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://rekrutmenbersama2024.fhcibumn.id/login_page')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "020a8917-5816-421c-a446-0b40b7db9305",
+      "comment": "",
+      "command": "type",
+      "target": "id=validation[email]",
+      "targets": [
+        ["id=validation[email]", "id"],
+        ["name=validation[email]", "name"],
+        ["css=#validation\\[email\\]", "css:finder"],
+        ["xpath=//input[@id='validation[email]']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login-data']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "mhmfaisal96@gmail.com"
+    }, {
+      "id": "2474bd6c-a3a2-42e0-9aaf-e9568c22ab2f",
+      "comment": "",
+      "command": "type",
+      "target": "id=validation[password]",
+      "targets": [
+        ["id=validation[password]", "id"],
+        ["name=validation[password]", "name"],
+        ["css=#validation\\[password\\]", "css:finder"],
+        ["xpath=//input[@id='validation[password]']", "xpath:attributes"],
+        ["xpath=//div[@id='show_hide_password']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Faqw3nvsH^p98B^"
+    }, {
+      "id": "90ff3f11-2d4c-49dc-afce-ad4de0bff8c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=validation[email]",
+      "targets": [
+        ["id=validation[email]", "id"],
+        ["name=validation[email]", "name"],
+        ["css=#validation\\[email\\]", "css:finder"],
+        ["xpath=//input[@id='validation[email]']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login-data']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3545912-394f-42f5-aacb-35d96d696157",
+      "comment": "",
+      "command": "click",
+      "target": "id=validation[password]",
+      "targets": [
+        ["id=validation[password]", "id"],
+        ["name=validation[password]", "name"],
+        ["css=#validation\\[password\\]", "css:finder"],
+        ["xpath=//input[@id='validation[password]']", "xpath:attributes"],
+        ["xpath=//div[@id='show_hide_password']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dde4604d-212f-4235-b4c9-1f52dc12f375",
+      "comment": "",
+      "command": "click",
+      "target": "id=validation[sec_key]",
+      "targets": [
+        ["id=validation[sec_key]", "id"],
+        ["name=validation[sec_key]", "name"],
+        ["css=#validation\\[sec_key\\]", "css:finder"],
+        ["xpath=//input[@id='validation[sec_key]']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login-data']/div[2]/div[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12cce81d-b282-48bc-a4f4-4599ae9b6471",
+      "comment": "",
+      "command": "type",
+      "target": "id=validation[sec_key]",
+      "targets": [
+        ["id=validation[sec_key]", "id"],
+        ["name=validation[sec_key]", "name"],
+        ["css=#validation\\[sec_key\\]", "css:finder"],
+        ["xpath=//input[@id='validation[sec_key]']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login-data']/div[2]/div[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "pahv"
+    }, {
+      "id": "066ea81a-0d70-44fd-b44a-4b1917b0007c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=validation[sec_key]",
+      "targets": [
+        ["id=validation[sec_key]", "id"],
+        ["name=validation[sec_key]", "name"],
+        ["css=#validation\\[sec_key\\]", "css:finder"],
+        ["xpath=//input[@id='validation[sec_key]']", "xpath:attributes"],
+        ["xpath=//form[@id='form-login-data']/div[2]/div[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "57ee801d-fbee-46ee-b9f2-dbd7a621bc09",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lamaran Saya",
+      "targets": [
+        ["linkText=Lamaran Saya", "linkText"],
+        ["css=#myapplication > a", "css:finder"],
+        ["xpath=//li[@id='myapplication']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'main#myapplication')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lamaran Saya')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "321237e1-dfed-4327-a93e-4dadef6eff90",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Daftar Riwayat Hidup",
+      "targets": [
+        ["linkText=Daftar Riwayat Hidup", "linkText"],
+        ["css=#curiculum_vitae\\/preview > a", "css:finder"],
+        ["xpath=//li[@id='curiculum_vitae/preview']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'main#curiculum_vitae/preview')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Daftar Riwayat Hidup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0cc9988-cc59-4784-80be-e96ad589025b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lowongan",
+      "targets": [
+        ["linkText=Lowongan", "linkText"],
+        ["css=#job_vacancy > a", "css:finder"],
+        ["xpath=//li[@id='job_vacancy']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'main#job_vacancy')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lowongan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c967cdb-6a0d-453c-bd4a-5bb6c9103925",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Kotak Masuk",
+      "targets": [
+        ["linkText=Kotak Masuk", "linkText"],
+        ["css=#my_mail > a", "css:finder"],
+        ["xpath=//li[@id='my_mail']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'main#my_mail')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Kotak Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfa404e1-0fa9-4aca-bd71-e13f19e54ad7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=FAQ",
+      "targets": [
+        ["linkText=FAQ", "linkText"],
+        ["css=#myapplication\\/faq > a", "css:finder"],
+        ["xpath=//li[@id='myapplication/faq']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'main#myapplication/faq')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'FAQ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53b6cced-1422-4461-b4d8-dea4e8a7abdb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cat__menu-left__pin-button > div",
+      "targets": [
+        ["css=.cat__menu-left__pin-button > div", "css:finder"],
+        ["xpath=//body[@id='menu_style']/nav/div/div/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2be21401-3ad4-4648-96b8-afea6633cef8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lamaran Saya",
+      "targets": [
+        ["linkText=Lamaran Saya", "linkText"],
+        ["css=#myapplication > a", "css:finder"],
+        ["xpath=//li[@id='myapplication']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'main#myapplication')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lamaran Saya')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6e8aee0-f42d-4a55-bba0-0e691c48aa16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-2:nth-child(5) path",
+      "targets": [
+        ["css=.col-md-2:nth-child(5) path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "078ec165-0823-4574-b37e-f6a5bf042248",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=MOHAMAD FAISAL",
+      "targets": [
+        ["linkText=MOHAMAD FAISAL", "linkText"],
+        ["css=.dropdown-toggle", "css:finder"],
+        ["xpath=//body[@id='menu_style']/div[4]/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript: void(0);')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'MOHAMAD FAISAL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae22fee0-9132-4ff8-b7a7-df2ded9d9f6f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.dropdown-item:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Logout')]", "xpath:link"],
+        ["xpath=//body[@id='menu_style']/div[4]/div[2]/div/div/ul/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://rekrutmenbersama2024.fhcibumn.id/dashboard/logout')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf399038-a1ff-4e34-baf7-3754a7589181",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7b3c7167-4941-4257-b209-23867bb64c73",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8cde9749-d1cb-4a11-b4aa-c58b27523854"]
+  }],
+  "urls": ["https://rekrutmenbersama2024.fhcibumn.id/"],
+  "plugins": []
+}
